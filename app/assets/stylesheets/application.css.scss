@@ -4,5 +4,13 @@
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *= require_self
 */
-@import "nifty_layout.css.sass"
+
+//@import "compass/reset";
+@import "compass";
+
+.msg {
+  border: solid 1px;
+  @include background(linear-gradient(#fff, #eee));
+  @include border-radius(5px);
+}
 
